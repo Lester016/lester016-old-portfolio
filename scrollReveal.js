@@ -52,21 +52,21 @@ sr.reveal(".progress .progress-bar", {
   distance: "300px",
   viewFactor: 0.3,
 });
-sr.reveal("#Portfolio .col-md-4:nth-child(1)", {
+sr.reveal("#portfolio .col-md-4:nth-child(1)", {
   duration: 1200,
   delay: 200,
   origin: "bottom",
   distance: "300px",
   viewFactor: 0.3,
 });
-sr.reveal("#Portfolio .col-md-4:nth-child(2)", {
+sr.reveal("#portfolio .col-md-4:nth-child(2)", {
   duration: 1200,
   delay: 000,
   origin: "bottom",
   distance: "300px",
   viewFactor: 0.3,
 });
-sr.reveal("#Portfolio .col-md-4:nth-child(3)", {
+sr.reveal("#portfolio .col-md-4:nth-child(3)", {
   duration: 1200,
   delay: 200,
   origin: "bottom",

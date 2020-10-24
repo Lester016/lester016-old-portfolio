@@ -307,21 +307,21 @@ header #intro p {
 /***********************End of Header***************************/
 
 /***********************Start of About**************************/
-#About .about-con {
+#about .about-con {
   max-width: 900px;
   margin: auto;
   margin-top: 0px;
 }
-#About .about-con img {
+#about .about-con img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#About .icons a {
+#about .icons a {
   color: black;
 }
-#About .icons a:hover i {
+#about .icons a:hover i {
   color: rgba(0, 0, 0, 0.8);
 }
-#About .icons {
+#about .icons {
   float: left;
   position: relative;
   color: white;
@@ -330,25 +330,25 @@ header #intro p {
   text-align: center;
   margin-bottom: 30px;
 }
-#About .icons i {
+#about .icons i {
   padding: 5px;
 }
 @media only screen and (max-width: 310px) {
-  #About .about-con .img-con {
+  #about .about-con .img-con {
     max-width: 200px;
     margin: auto;
     margin-bottom: 30px;
     margin-top: 0;
   }
-  #About .about-con {
+  #about .about-con {
     margin-top: 0;
   }
 }
-#About .about-con .col-md-9 {
+#about .about-con .col-md-9 {
   text-align: justify;
   margin: auto;
 }
-#About .about-con .col-md-9 button {
+#about .about-con .col-md-9 button {
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
@@ -356,22 +356,22 @@ header #intro p {
   background-color: black;
   border: 2px solid black;
 }
-#About .char-traits {
+#about .char-traits {
   max-width: 1000px;
   margin: auto;
   margin-top: 0px;
   margin-bottom: 50px;
   text-align: center;
 }
-#About .char-traits i {
+#about .char-traits i {
   font-size: 55px;
   padding: 30px;
   font-weight: normal;
 }
-#About .char-traits h4 {
+#about .char-traits h4 {
   color: #ff6666;
 }
-#About .char-traits p {
+#about .char-traits p {
   text-align: justify;
 }
 /************************End of About**************************/
@@ -556,21 +556,21 @@ header #intro p {
 /***********************End of Skills*************************/
 
 /********************Start of Portfolio***********************/
-#Portfolio .row .col-md-4 img {
+#portfolio .row .col-md-4 img {
   transition: all 0.4s ease-in;
   padding: 0;
   margin: 0;
   cursor: pointer;
 }
-#Portfolio .row .col-md-4 {
+#portfolio .row .col-md-4 {
   overflow: hidden;
   padding: 0;
 }
-#Portfolio .row .col-md-4:hover img {
+#portfolio .row .col-md-4:hover img {
   transform: scale(1.1);
   filter: blur(5px);
 }
-#Portfolio .row .col-md-4:hover div {
+#portfolio .row .col-md-4:hover div {
   transition: all 0.5s ease;
   top: 35%;
   bottom: 0;
@@ -670,15 +670,15 @@ header #intro p {
   text-align: center;
 }
 
-/******************* Footer **********************/
+/******************* footer **********************/
 
-#Footer .icons a {
+#footer .icons a {
   color: white;
 }
-#Footer .icons a:hover i {
+#footer .icons a:hover i {
   color: #ff6666;
 }
-#Footer .icons {
+#footer .icons {
   float: left;
   position: relative;
   color: white;
@@ -687,6 +687,6 @@ header #intro p {
   text-align: center;
   margin-bottom: 30px;
 }
-#Footer .icons i {
+#footer .icons i {
   padding: 5px;
 }
