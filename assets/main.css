@@ -272,11 +272,17 @@ header #intro h1 {
   /*	color: #FED85D; /*dandelion*/
   /*	color: #ffdd00; /*cream*/
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (min-width: 540px) {
+  header #intro h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 539px) {
   header #intro h1 {
     font-size: 40px;
   }
 }
+
 header #intro button {
   padding: 5px;
   padding-right: 15px;
@@ -290,6 +296,11 @@ header #intro button {
   cursor: pointer;
 }
 @media only screen and (max-width: 350px) {
+  header #intro button {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 350px) {
   header #intro button {
     font-size: 12px;
   }
