@@ -560,3 +560,7 @@ header #intro p {
 #footer .icons i {
   padding: 5px;
 }
+
+.item {
+  width: 150px;
+}
