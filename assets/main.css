@@ -248,13 +248,13 @@ header {
   background: url(img/bgwaveeditable.png) left;
   background-size: cover;
   background-position: center;
-  min-height: 600px;
+  min-height: 100vh;
 }
 header #intro {
   float: left;
   width: 100%;
   padding: 0px;
-  margin-top: 150px;
+  margin-top: 30vh;
   text-align: center;
 }
 @media only screen and (max-width: 310px) {
