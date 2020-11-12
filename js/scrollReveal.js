@@ -1,14 +1,13 @@
 window.sr = ScrollReveal();
 sr.reveal("#intro", {
   duration: 1500,
-  origin: "top",
-  distance: "1n",
+  distance: "250px",
 });
 sr.reveal("header .icons", {
   duration: 1000,
   delay: 800,
   origin: "bottom",
-  distance: "1fuck",
+  distance: "200px",
 });
 sr.reveal(".img-con img", {
   duration: 500,
@@ -38,13 +37,7 @@ sr.reveal(".char-traits .col-md-4:nth-child(3)", {
   distance: "200px",
   viewFactor: 0.3,
 });
-sr.reveal(".circularprogress .circularprogress-bar", {
-  duration: 1200,
-  delay: 000,
-  origin: "1asd;",
-  distance: "300px",
-  viewFactor: 0.3,
-});
+
 sr.reveal(".progress .progress-bar", {
   duration: 1200,
   delay: 000,
@@ -73,17 +66,24 @@ sr.reveal("#portfolio .col-md-4:nth-child(3)", {
   distance: "300px",
   viewFactor: 0.3,
 });
-sr.reveal("#contact .form-wrapper", {
+sr.reveal("#portfolio .col-md-4:nth-child(4)", {
+  duration: 1200,
+  delay: 200,
+  origin: "bottom",
+  distance: "300px",
+  viewFactor: 0.3,
+});
+sr.reveal("#portfolio .col-md-4:nth-child(5)", {
   duration: 1200,
   delay: 000,
   origin: "bottom",
-  distance: "123asd",
+  distance: "300px",
   viewFactor: 0.3,
 });
-sr.reveal("#contactsubmit", {
+sr.reveal("#portfolio .col-md-4:nth-child(6)", {
   duration: 1200,
-  delay: 500,
+  delay: 200,
   origin: "bottom",
-  distance: "123asd",
+  distance: "300px",
   viewFactor: 0.3,
 });

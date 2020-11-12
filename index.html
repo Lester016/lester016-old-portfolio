@@ -42,46 +42,570 @@
     <link rel="stylesheet" type="text/css" href="assets/main.css" />
   </head>
   <body>
-    <!-- Navigations -->
-    <div style="position: fixed; z-index: 9999; width: 100%">
-      <img class="barnav_logo" src="assets/img/Lpink.png" />
-      <input
-        type="checkbox"
-        id="navcheck"
-        class="myInput"
-        role="button"
-        title="menu"
-      />
-      <label for="navcheck" aria-hidden="true" title="menu">
-        <span class="burger">
-          <span class="bar">
-            <span class="visuallyhidden">Menu</span>
-          </span>
-        </span>
-      </label>
-      <nav id="menu">
-        <a href="#">Home</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <div class="loader-wrapper text-center">
+      <div class="lds-grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
+    <div id="content">
+      <!-- Navigations -->
+      <div style="position: fixed; z-index: 500; width: 100%; display: hidden">
+        <img class="barnav_logo" src="assets/img/Lpink.png" />
+        <input
+          type="checkbox"
+          id="navcheck"
+          class="myInput"
+          role="button"
+          title="menu"
+        />
+        <label for="navcheck" aria-hidden="true" title="menu">
+          <span class="burger">
+            <span class="bar">
+              <span class="visuallyhidden">Menu</span>
+            </span>
+          </span>
+        </label>
+        <nav id="menu">
+          <a href="#">Home</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
 
-    <!-- Start of Page wrap -->
-    <div id="page-wrap">
-      <!-- Start of the header -->
-      <header>
-        <div id="intro">
-          <h1>Lester De Guzman</h1>
-          <p>Software Developer</p>
-          <a href="#portfolio"><button>CHECK OUT MY WORK</button></a>
-        </div>
-      </header>
-      <!-- End of the header -->
+      <!-- Start of Page wrap -->
+      <div id="page-wrap">
+        <!-- Start of the header -->
+        <header>
+          <div id="intro">
+            <h1>Lester De Guzman</h1>
+            <p>Software Developer</p>
+            <a href="#portfolio"><button>CHECK OUT MY WORK</button></a>
+          </div>
+        </header>
+        <!-- End of the header -->
 
-      <!-- Start of About -->
-      <section id="about">
-        <div class="row about-con">
-          <div class="col-md-9">
+        <!-- Start of About -->
+        <section id="about">
+          <div class="row about-con">
+            <div class="col-md-9">
+              <div class="icons">
+                <a href="https://www.facebook.com/achep.16" target="_blank"
+                  ><i class="fa fa-facebook-square"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/lester-de-guzman-29618315a/"
+                  target="_blank"
+                  ><i class="fa fa-linkedin-square"></i
+                ></a>
+                <a href="https://github.com/Lester016" target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+                <a href="https://twitter.com/xLesterD" target="_blank"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+                <a href="https://dribbble.com/lester016" target="_blank"
+                  ><i class="fa fa-dribbble"></i
+                ></a>
+              </div>
+              <p>
+                Hi I'm Lester De Guzman! from Manila Philippines an incoming
+                first year college at Technological University of the
+                Philippines pursuing Bachelor's Degree in Computer Science. I
+                love making and designing minimalist websites using my knowledge
+                and doing
+                <span class="positive-words">Awesome</span> things with
+                <span class="positive-words">Innovation</span>,
+                <span class="positive-words">Love</span> and
+                <span class="positive-words">Passion</span> in my work. I was
+                awarded as an
+                <span class="positive-words"
+                  >Outstanding Senior Programmer</span
+                >
+                during my Senior High School years in AMA Computer College. I
+                used to play sports and video games in my freetime with my
+                friends. I'm always down to meet for people who will help me
+                grow, improve my capability and will also help me to earn in the
+                field of Software Developing.
+              </p>
+            </div>
+          </div>
+          <div
+            style="
+              background-color: #ff6666;
+              width: 50px;
+              height: 5px;
+              border-radius: 100px;
+              margin: 0 auto;
+              margin-bottom: 20px;
+              margin-top: 40px;
+            "
+          ></div>
+          <div class="row char-traits">
+            <div class="col-md-4">
+              <i class="fa fa-handshake-o"></i>
+              <h4>Trustworthy</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-grav"></i>
+              <h4>Ambitious</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-lightbulb-o"></i>
+              <h4>Intuitive</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- End of About -->
+
+        <hr style="float: left; width: 100%" />
+
+        <!-- Start of My Skills -->
+        <section id="skills">
+          <!-- Container -->
+          <div class="mycontainer">
+            <!-- row -->
+            <div class="row">
+              <div
+                style="
+                  text-align: center;
+                  max-width: 600px;
+                  margin: auto;
+                  margin-bottom: 30px;
+                "
+              >
+                <h1 style="text-align: center; font-size: 35px">
+                  Adequate skills to help you achieve your goals.
+                </h1>
+                <div
+                  style="
+                    background-color: #ff6666;
+                    width: 50px;
+                    height: 5px;
+                    border-radius: 100px;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                  "
+                ></div>
+              </div>
+
+              <div class="col-md-12 progress-container" style="margin: auto">
+                <div class="owl-carousel technology">
+                  <div class="item" style="width: 150px; height: 50px">
+                    <img src="assets/img/technology/2.png" />
+                  </div>
+                  <div class="item" style="width: 50px; height: 50px">
+                    <img src="assets/img/technology/3.png" />
+                  </div>
+                  <div class="item" style="width: 80px; height: 80px">
+                    <img src="assets/img/technology/4.png" />
+                  </div>
+                  <div class="item" style="width: 60px; height: 60px">
+                    <img src="assets/img/technology/5.png" />
+                  </div>
+                  <div class="item" style="width: 50px; height: 50px">
+                    <img src="assets/img/technology/6.png" />
+                  </div>
+                  <div class="item" style="width: 60px; height: 60px">
+                    <img src="assets/img/technology/7.png" />
+                  </div>
+                  <div class="item" style="width: 45px; height: 45px">
+                    <img src="assets/img/technology/8.png" />
+                  </div>
+                  <div class="item" style="width: 55px; height: 55px">
+                    <img src="assets/img/technology/9.png" />
+                  </div>
+                  <div class="item" style="width: 155px; height: 40px">
+                    <img src="assets/img/technology/10.png" />
+                  </div>
+                  <div class="item" style="width: 50px; height: 50px">
+                    <img src="assets/img/technology/11.png" />
+                  </div>
+                  <div class="item" style="width: 50px; height: 55px">
+                    <img src="assets/img/technology/12.png" />
+                  </div>
+                  <div class="item" style="width: 50px; height: 50px">
+                    <img src="assets/img/technology/14.png" />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <!-- Horizontal -->
+                  <div class="col-md-12 horizontal-progress">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <p>HTML/HTML5</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 85%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>CSS/CSS3</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 70%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>JavaScript</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 65%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>Python</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 85%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>SQL/NoSQL</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 90%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>ReactJS</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 80%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>React-Native</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 85%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>Flask</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 90%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>Django</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 75%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>GraphQL</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 75%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>AWS/Firebase</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 65%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>Node.JS</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 100%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>Redux</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 65%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p>ExpressJS</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 50%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Horizontal -->
+                </div>
+              </div>
+            </div>
+            <!-- /row -->
+          </div>
+          <!-- /Container -->
+        </section>
+        <!-- End of My skills -->
+
+        <!-- Start of Portfolio -->
+        <section id="portfolio">
+          <div class="container" style="margin-bottom: 100px">
+            <div style="text-align: center">
+              <h1>My work</h1>
+              <div
+                style="
+                  background-color: #ff6666;
+                  width: 50px;
+                  height: 5px;
+                  border-radius: 100px;
+                  margin: 0 auto;
+                  margin-bottom: 50px;
+                  margin-top: 20px;
+                "
+              ></div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="assets/img/samplework4.jpg" width="100%;" />
+                <div class="div-overlay">
+                  <h4>Reverie</h4>
+                  <p>Social Networking</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/img/samplework3.jpg" width="100%;" />
+                <div class="div-overlay">
+                  <h4>Burger Store</h4>
+                  <p>Ordering Application</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/img/samplework6.jpg" width="100%;" />
+                <div class="div-overlay">
+                  <h4>Finance Application</h4>
+                  <p>Finance Application</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/img/samplework.jpg" width="100%;" />
+                <div class="div-overlay">
+                  <h4>Finance Application</h4>
+                  <p>Finance Application</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/img/samplework1.jpg" width="100%;" />
+                <div class="div-overlay">
+                  <h4>Finance Application</h4>
+                  <p>Finance Application</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/img/samplework2.jpg" width="100%;" />
+                <div class="div-overlay">
+                  <h4>Finance Application</h4>
+                  <p>Finance Application</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of Portfolio -->
+
+        <hr style="float: left; width: 100%" />
+
+        <!-- Contact -->
+        <section id="contact" style="text-align: center">
+          <div>
+            <h1>Get in touch <i class="fa fa-comments"></i></h1>
+            <div
+              style="
+                background-color: #ff6666;
+                width: 50px;
+                height: 5px;
+                border-radius: 100px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                margin-top: 20px;
+              "
+            ></div>
+          </div>
+          <div
+            class="form-wrapper"
+            style="
+              max-width: 700px;
+              margin: auto;
+              margin-top: 50px;
+              font-size: 15px;
+            "
+          >
+            <form
+              class="row container"
+              style="margin: auto"
+              action=""
+              method="POST"
+            >
+              <input type="text" name="name" placeholder="YOUR NAME" required />
+              <div style="width: 2%"></div>
+              <input type="text" name="email" placeholder="EMAIL" required />
+              <input
+                type="text"
+                name="subject"
+                placeholder="SUBJECT"
+                style="width: 100%"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="YOUR MESSAGE"
+                style="
+                  width: 100%;
+                  border: none;
+                  border-bottom: 1px solid #e0e0e0;
+                  background-color: transparent;
+                  resize: none;
+                  padding: 10px;
+                "
+                required
+              ></textarea>
+              <input
+                type="submit"
+                name="submit"
+                value="Submit"
+                id="contactsubmit"
+                style="
+                  margin: auto;
+                  margin-top: 30px;
+                  border: 1px solid #ff6666;
+                  background-color: #ff6666;
+                  color: white;
+                "
+              />
+            </form>
+          </div>
+        </section>
+        <!-- /Contact -->
+
+        <!-- Footer -->
+        <footer
+          id="footer"
+          style="background-color: black; color: white; text-align: center"
+        >
+          <div class="container" style="padding: 50px">
+            Copyright 2018 - 2020 <i class="fa fa-copyright"></i>
+            <br />
+            <br />
+            <br />
+            Lester De Guzman | Web Developer
+            <br />
+            <br />
+            <br />
             <div class="icons">
               <a href="https://www.facebook.com/achep.16" target="_blank"
                 ><i class="fa fa-facebook-square"></i
@@ -101,497 +625,12 @@
                 ><i class="fa fa-dribbble"></i
               ></a>
             </div>
-            <p>
-              Hi I'm Lester De Guzman! from Manila Philippines an incoming first
-              year college at Technological University of the Philippines
-              pursuing Bachelor's Degree in Computer Science. I love making and
-              designing minimalist websites using my knowledge and doing
-              <span class="positive-words">Awesome</span> things with
-              <span class="positive-words">Innovation</span>,
-              <span class="positive-words">Love</span> and
-              <span class="positive-words">Passion</span> in my work. I was
-              awarded as an
-              <span class="positive-words">Outstanding Senior Programmer</span>
-              during my Senior High School years in AMA Computer College. I used
-              to play sports and video games in my freetime with my friends. I'm
-              always down to meet for people who will help me grow, improve my
-              capability and will also help me to earn in the field of Software
-              Developing.
-            </p>
           </div>
-        </div>
-        <div
-          style="
-            background-color: #ff6666;
-            width: 50px;
-            height: 5px;
-            border-radius: 100px;
-            margin: 0 auto;
-            margin-bottom: 20px;
-            margin-top: 40px;
-          "
-        ></div>
-        <div class="row char-traits">
-          <div class="col-md-4">
-            <i class="fa fa-handshake-o"></i>
-            <h4>Trustworthy</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <i class="fa fa-grav"></i>
-            <h4>Ambitious</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <i class="fa fa-lightbulb-o"></i>
-            <h4>Intuitive</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- End of About -->
-
-      <hr style="float: left; width: 100%" />
-
-      <!-- Start of My Skills -->
-      <section id="skills">
-        <!-- Container -->
-        <div class="mycontainer">
-          <!-- row -->
-          <div class="row">
-            <div
-              style="
-                text-align: center;
-                max-width: 600px;
-                margin: auto;
-                margin-bottom: 30px;
-              "
-            >
-              <h1 style="text-align: center; font-size: 35px">
-                Adequate skills to help you achieve your goals.
-              </h1>
-              <div
-                style="
-                  background-color: #ff6666;
-                  width: 50px;
-                  height: 5px;
-                  border-radius: 100px;
-                  margin: 0 auto;
-                  margin-bottom: 20px;
-                  margin-top: 20px;
-                "
-              ></div>
-            </div>
-
-            <div class="col-md-12 progress-container" style="margin: auto">
-              <div class="owl-carousel technology">
-                <div class="item" style="width: 150px; height: 50px">
-                  <img src="assets/img/technology/2.png" />
-                </div>
-                <div class="item" style="width: 50px; height: 50px">
-                  <img src="assets/img/technology/3.png" />
-                </div>
-                <div class="item" style="width: 80px; height: 80px">
-                  <img src="assets/img/technology/4.png" />
-                </div>
-                <div class="item" style="width: 60px; height: 60px">
-                  <img src="assets/img/technology/5.png" />
-                </div>
-                <div class="item" style="width: 50px; height: 50px">
-                  <img src="assets/img/technology/6.png" />
-                </div>
-                <div class="item" style="width: 60px; height: 60px">
-                  <img src="assets/img/technology/7.png" />
-                </div>
-                <div class="item" style="width: 45px; height: 45px">
-                  <img src="assets/img/technology/8.png" />
-                </div>
-                <div class="item" style="width: 55px; height: 55px">
-                  <img src="assets/img/technology/9.png" />
-                </div>
-                <div class="item" style="width: 155px; height: 40px">
-                  <img src="assets/img/technology/10.png" />
-                </div>
-                <div class="item" style="width: 50px; height: 50px">
-                  <img src="assets/img/technology/11.png" />
-                </div>
-                <div class="item" style="width: 50px; height: 55px">
-                  <img src="assets/img/technology/12.png" />
-                </div>
-                <div class="item" style="width: 50px; height: 50px">
-                  <img src="assets/img/technology/14.png" />
-                </div>
-              </div>
-
-              <div class="row">
-                <!-- Horizontal -->
-                <div class="col-md-12 horizontal-progress">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <p>HTML/HTML5</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 85%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>CSS/CSS3</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 70%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>JavaScript</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 65%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>Python</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 85%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>SQL/NoSQL</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 90%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>ReactJS</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 80%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>React-Native</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 85%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>Flask</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 90%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>Django</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 75%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>GraphQL</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 75%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>AWS/Firebase</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 65%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>Node.JS</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 100%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>Redux</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 65%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <p>ExpressJS</p>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 50%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /Horizontal -->
-              </div>
-            </div>
-          </div>
-          <!-- /row -->
-        </div>
-        <!-- /Container -->
-      </section>
-      <!-- End of My skills -->
-
-      <!-- Start of Portfolio -->
-      <section id="portfolio">
-        <div class="container" style="margin-bottom: 100px">
-          <div style="text-align: center">
-            <h1>My work</h1>
-            <div
-              style="
-                background-color: #ff6666;
-                width: 50px;
-                height: 5px;
-                border-radius: 100px;
-                margin: 0 auto;
-                margin-bottom: 50px;
-                margin-top: 20px;
-              "
-            ></div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <img src="assets/img/samplework4.jpg" width="100%;" />
-              <div class="div-overlay">
-                <h4>Reverie</h4>
-                <p>Social Networking</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img src="assets/img/samplework3.jpg" width="100%;" />
-              <div class="div-overlay">
-                <h4>Burger Store</h4>
-                <p>Ordering Application</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img src="assets/img/samplework6.jpg" width="100%;" />
-              <div class="div-overlay">
-                <h4>Finance Application</h4>
-                <p>Finance Application</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End of Portfolio -->
-
-      <hr style="float: left; width: 100%" />
-
-      <!-- Contact -->
-      <section id="contact" style="text-align: center">
-        <div>
-          <h1>Get in touch <i class="fa fa-comments"></i></h1>
-          <div
-            style="
-              background-color: #ff6666;
-              width: 50px;
-              height: 5px;
-              border-radius: 100px;
-              margin: 0 auto;
-              margin-bottom: 20px;
-              margin-top: 20px;
-            "
-          ></div>
-        </div>
-        <div
-          class="form-wrapper"
-          style="
-            max-width: 700px;
-            margin: auto;
-            margin-top: 50px;
-            font-size: 15px;
-          "
-        >
-          <form
-            class="row container"
-            style="margin: auto"
-            action=""
-            method="POST"
-          >
-            <input type="text" name="name" placeholder="YOUR NAME" required />
-            <div style="width: 2%"></div>
-            <input type="text" name="email" placeholder="EMAIL" required />
-            <input
-              type="text"
-              name="subject"
-              placeholder="SUBJECT"
-              style="width: 100%"
-              required
-            />
-            <textarea
-              name="message"
-              placeholder="YOUR MESSAGE"
-              style="
-                width: 100%;
-                border: none;
-                border-bottom: 1px solid #e0e0e0;
-                background-color: transparent;
-                resize: none;
-                padding: 10px;
-              "
-              required
-            ></textarea>
-            <input
-              type="submit"
-              name="submit"
-              value="Submit"
-              id="contactsubmit"
-              style="
-                margin: auto;
-                margin-top: 30px;
-                border: 1px solid #ff6666;
-                background-color: #ff6666;
-                color: white;
-              "
-            />
-          </form>
-        </div>
-      </section>
-      <!-- /Contact -->
-
-      <!-- Footer -->
-      <footer
-        id="footer"
-        style="background-color: black; color: white; text-align: center"
-      >
-        <div class="container" style="padding: 50px">
-          Copyright 2018 - 2020 <i class="fa fa-copyright"></i>
-          <br />
-          <br />
-          <br />
-          Lester De Guzman | Web Developer
-          <br />
-          <br />
-          <br />
-          <div class="icons">
-            <a href="https://www.facebook.com/achep.16" target="_blank"
-              ><i class="fa fa-facebook-square"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/lester-de-guzman-29618315a/"
-              target="_blank"
-              ><i class="fa fa-linkedin-square"></i
-            ></a>
-            <a href="https://github.com/Lester016" target="_blank"
-              ><i class="fa fa-github"></i
-            ></a>
-            <a href="https://twitter.com/xLesterD" target="_blank"
-              ><i class="fa fa-twitter"></i
-            ></a>
-            <a href="https://dribbble.com/lester016" target="_blank"
-              ><i class="fa fa-dribbble"></i
-            ></a>
-          </div>
-        </div>
-      </footer>
-      <!-- /Footer -->
+        </footer>
+        <!-- /Footer -->
+      </div>
+      <!-- End of Page wrap -->
     </div>
-    <!-- End of Page wrap -->
     <!-- Owl carousel -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -612,5 +651,15 @@
       });
     </script>
     <script src="js/scrollReveal.js"></script>
+    <script>
+      window.addEventListener("load", (event) => {
+        document.querySelector(".loader-wrapper").classList.add("fade-out");
+        document.getElementById("content").style.visibility = "visible";
+        document.querySelector("body").style.overflowY = "scroll";
+        setInterval(() => {
+          document.querySelector(".loader-wrapper").style.display = "none";
+        }, 2500);
+      });
+    </script>
   </body>
 </html>
