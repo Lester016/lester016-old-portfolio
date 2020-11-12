@@ -1,8 +1,5 @@
 window.sr = ScrollReveal();
-sr.reveal("#intro", {
-  duration: 1500,
-  distance: "250px",
-});
+
 sr.reveal("header .icons", {
   duration: 1000,
   delay: 800,
