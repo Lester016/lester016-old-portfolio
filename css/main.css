@@ -43,6 +43,15 @@ button:focus {
 button::-moz-focus-inner {
   border: 0;
 }
+.divider {
+  background-color: #ff6666;
+  width: 50px;
+  height: 5px;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
 /*************************Start of Navbar*************************/
 .nav-container {
@@ -481,6 +490,12 @@ header #intro p {
 #contact {
   margin-top: 70px;
   margin-bottom: 100px;
+}
+.form-wrapper {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 15px;
 }
 .form-wrapper input {
   margin-bottom: 80px;
