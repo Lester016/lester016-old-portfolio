@@ -632,35 +632,17 @@
       <!-- End of Page wrap -->
     </div>
 
-    <!-- Owl carousel -->
+    <!-- JQuery -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"
     ></script>
 
-    <script src="assets/owlcarousel/owl.carousel.js"></script>
-    <script>
-      $(".owl-carousel").owlCarousel({
-        margin: 100,
-        center: true,
-        loop: true,
-        autoWidth: true,
-        items: 1,
-        autoplay: true,
-        autoplayTimeout: 1000,
-      });
-    </script>
+    <!-- Javascript -->
+    <script src="js/carousel.js"></script>
+    <script src="js/carouselConfig.js"></script>
     <script src="js/scrollReveal.js"></script>
-    <script>
-      window.addEventListener("load", (event) => {
-        document.querySelector(".loader-wrapper").classList.add("fade-out");
-        document.getElementById("content").style.visibility = "visible";
-        document.querySelector("body").style.overflowY = "scroll";
-        setInterval(() => {
-          document.querySelector(".loader-wrapper").style.display = "none";
-        }, 2500);
-      });
-    </script>
+    <script src="js/preloader.js"></script>
   </body>
 </html>
