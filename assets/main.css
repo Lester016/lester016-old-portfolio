@@ -45,6 +45,11 @@ button::-moz-focus-inner {
 }
 
 /*************************Start of Navbar*************************/
+.nav-container {
+  position: fixed;
+  z-index: 500;
+  width: 100%;
+}
 .barnav_logo {
   width: 48px;
   margin: 12px;
@@ -652,7 +657,6 @@ header #intro p {
   }
 }
 
-
 /* Animations */
 .fade-out {
   animation: fadeOut ease 2.5s;
@@ -663,44 +667,45 @@ header #intro p {
 }
 @keyframes fadeOut {
   0% {
-    opacity:1;
+    opacity: 1;
   }
   100% {
-    opacity:0;
+    opacity: 0;
   }
 }
 
 @-moz-keyframes fadeOut {
   0% {
-    opacity:1;
+    opacity: 1;
   }
   100% {
-    opacity:0;
+    opacity: 0;
   }
 }
 
 @-webkit-keyframes fadeOut {
   0% {
-    opacity:1;
+    opacity: 1;
   }
   100% {
-    opacity:0;
+    opacity: 0;
   }
 }
 
 @-o-keyframes fadeOut {
   0% {
-    opacity:1;
+    opacity: 1;
   }
   100% {
-    opacity:0;
+    opacity: 0;
   }
 }
 
 @-ms-keyframes fadeOut {
   0% {
-    opacity:1;
+    opacity: 1;
   }
   100% {
-    opacity:0;
+    opacity: 0;
+  }
 }
