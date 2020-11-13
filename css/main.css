@@ -477,49 +477,6 @@ header #intro p {
 
 /*********************End of Portfolio************************/
 
-/*Persuade*/
-#Services {
-  background-image: url("img/magicalrainbow.jpg");
-  width: 100%;
-  background-size: cover;
-  background-attachment: fixed;
-  -moz-background-attachment: fixed;
-  background-position: center;
-  margin-bottom: 100px;
-}
-
-#Services .wrapper {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  float: left;
-}
-#Services .container {
-  color: white;
-  margin: auto;
-  max-width: 800px;
-  padding: 50px;
-}
-@media only screen and (max-width: 790px) {
-  #Services .brand-container {
-    margin-top: 40px;
-  }
-}
-#Services .col-md-7 {
-  text-align: center;
-  margin: auto;
-}
-#Services .container h1 {
-  font-size: 35px;
-}
-#Services .container h1,
-#Services .container p {
-  color: white;
-}
-#Services .item {
-  text-align: center;
-}
-
 /*****************Contact****************/
 #contact {
   margin-top: 70px;
